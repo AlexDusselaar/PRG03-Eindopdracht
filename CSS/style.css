@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F3EDC8;
+}
+
+h2, h3, h4, h5, a, p {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Anta", sans-serif;
+    color: #EAD196;
+    background-color: #7D0A0A;
+    margin: 0;
+    padding: 1vw;
+}
+
+img {
+    width: 15vw;
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 3px;
+    list-style-type: none;
+    width: 17vw;
+    background-color: #EAD196;
+    transition: 0.5s ease-in-out;
+}
+
+li:hover {
+    scale: 102%;
+}
+
+li p {
+    font-family: "Anta", sans-serif;
+    color: #7D0A0A;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+li div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+li a {
+    font-family: "Anta", sans-serif;
+    text-align: center;
+    background-color: #BF3131;
+    color: #F3EDC8;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+    transition: 0.2s ease-in-out;
+}
+
+li a:hover {
+    background-color: #F3EDC8;
+    color: #BF3131;
+}
+
+footer {
+    background-color: #BF3131;
+    padding: 4vh;
+    color: #F3EDC8;
+}
+
+footer p {
+    font-family: "Anta", sans-serif;
+}
+
+@media (max-width: 450px) {
+    li {
+        width: 70vw;
+        margin: 4vw;
+    }
+    img {
+        width: 50vw;
+        height: 65vh;
+        margin: 5vw 0 0 0;
+    }
+}
